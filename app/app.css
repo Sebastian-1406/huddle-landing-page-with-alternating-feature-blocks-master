@@ -184,13 +184,94 @@ body{
 }
 .lista-link{
     font-size: 14px;
-
 }
-
-
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-redes .fab{
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    padding: 10px;
+}
 
 .copy{
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     color: var(--white);
+    margin-top: 20px;
+}
+
+@media screen and (min-width:375px){
+
+    .header {
+        padding: 30px;
+    }
+    .header-seccion .logo{
+        width: 120px;
+    }
+
+    .header-texto{
+        gap: 30px;
+    }
+
+
+    .header-texto .titulo{
+        font-weight: 600;        
+        line-height: 35px;
+    }
+    
+    .header-texto .parrafo{
+        font-size: 15px;
+    }
+    .pink{
+        padding: 13px 40px;
+    }
+
+    .main{
+        padding-bottom: 200px;
+    }
+
+    .card{
+        padding: 30px;
+    }
+    .card .ilustracion{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .card .titulo{
+        font-size: 20px;
+    }
+    .card .parrafo{
+        font-size: 14px;
+    }
+
+
+    .informacion{
+        padding: 30px 20px;
+        bottom: -60px;
+
+    }
+    .informacion .titulo{
+        font-size: 18px;
+    }
+    .footer{
+        padding-top: 120px;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .lista-link{
+        font-size: 15px;
+    }
+
+
 }
