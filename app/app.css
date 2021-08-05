@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --pink : hsl(322, 100%, 66%);
+    --celeste-bajo : hsl(193, 100%, 96%);
+    --gris : hsl(208, 11%, 55%);
+    --negro : hsl(192, 100%, 9%);
+    --white : #fff;
+    --azul-oscuro : #213843;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header{
+    padding: 20px;
+    background: var(--celeste-bajo);
+    background-image: url("../images/bg-hero-mobile.svg");
+
+}
+
+.header-seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-seccion .logo{
+    width: 100px;
+}
+
+.header-texto{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-texto .titulo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: var(--negro);
+
+}
+
+.header-texto .parrafo{
+    text-align: center;
+    font-size: 15px;
+    color: var(--azul-oscuro);
+}
+
+.btn{
+    border-radius: 100px;
+    padding: 5px 20px;
+    border: none;
+    background: var(--white);
+    font-weight: 700;
+    box-shadow: 0px 0px 8px #0003;
+    font-size: 13px;
+
+}
+
+.pink{
+    background: var(--pink);
+    padding: 10px 40px;
+    color: var(--white);
+}
+
+.header-ilustacion .imagen{
+    width: 100%;
+}
+
+
+.main{
+    padding: 50px 20px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+
+.seccion__card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 8px #0002;
+    border-radius: 10px;
+}
+.card .ilustracion{
+    width: 200px;
+}
+
+.card .titulo{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card .parrafo{
+    text-align: center;
+    font-size: 13px;
+    color: var(--gris);
+}
+
+.informacion{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+    border-radius: 7px;
+    background: #fff;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: -50px;
+    box-shadow: 0px 0px 8px #0003;
+}
+.informacion .titulo{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: var(--negro);
+    padding: 50px 20px;
+    padding-top: 100px;
+}
+
+.footer .logo{
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--white)
+}
+
+.ubicacion{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 300px;
+}
+.ubicacion .parrafo{
+    font-size: 14px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.address-icon{
+    margin-right: 20px;
+}
+.lista{
+    list-style: none;
+}
+.lista-link{
+    font-size: 14px;
+
+}
+
+
+
+.copy{
+    text-align: center;
+    font-size: 13px;
+    color: var(--white);
+}
